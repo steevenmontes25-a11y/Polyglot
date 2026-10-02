@@ -1,0 +1,18 @@
+{
+  "name": "polyglot",
+  "version": "1.0.0",
+  "description": "Plataforma completa de aprendizaje de idiomas con repeticion espaciada, arbol de habilidades MCER y 15 idiomas.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "seed": "node server/seed/index.js",
+    "reset": "node server/seed/index.js --reset",
+    "demo": "node server/seed/index.js --reset --demo"
+  },
+  "dependencies": {}
+}
